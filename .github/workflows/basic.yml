@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   CI_test_run: 
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
 
     steps:
       - name: Checkout
